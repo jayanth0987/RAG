@@ -42,4 +42,21 @@ Follow these steps to install the project:
 
 ## Quick Start Example
 
+## Components
 
+### Retriever
+Finds relevant documents using semantic search.
+
+### Generator
+Creates responses using the selected LLM.
+
+### Prompt Engine
+Constructs optimized prompts with context.
+
+## Troubleshooting
+
+**Q: Slow performance?**
+A: Reduce top_k parameter or use a smaller model.
+
+**Q: Low accuracy?**
+A: Add more documents or improve chunking strategy.
